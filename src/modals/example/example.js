@@ -18,6 +18,6 @@ const element = () => (
   </Grid>
 );
 
-const render = ReactDOM.render(element, document.getElementById('root'));
+const render = () => ReactDOM.render(element, document.getElementById('root'));
 
 window.render = render;
