@@ -18,5 +18,4 @@ const element = () => (
   </Grid>
 );
 
-ReactDOM.render(<h1>Hello, world</h1>, document.getElementById('root'));
-// ReactDOM.render(element, document.getElementById('root'));
+setTimeout(() => ReactDOM.render(element, document.getElementById('root')), 1000);
