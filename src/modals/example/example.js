@@ -18,4 +18,5 @@ const element = () => (
   </Grid>
 );
 
-ReactDOM.render(element, document.getElementById('root'));
+ReactDOM.render(<h1>Hello, world</h1>, document.getElementById('root'));
+// ReactDOM.render(element, document.getElementById('root'));
