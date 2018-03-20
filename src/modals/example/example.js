@@ -18,6 +18,9 @@ const element = () => (
   </Grid>
 );
 
+console.log('1', document.getElementById('root'));
+console.log('2', element);
+
 const render = () => ReactDOM.render(element, document.getElementById('root'));
 
 window.render = render;
