@@ -7,7 +7,7 @@ const setVotesPerMember = {
   text: 'Set Votes per Member',
   callback: async t => t.popup({
     title: 'Set Votes per Member',
-    url: './src/capabilities/board-buttons/admin/set-votes-per-member.html',
+    url: 'https://etburke.github.io/react-trello-powerup/dist/set-votes-per-member.html',
   }),
 };
 
