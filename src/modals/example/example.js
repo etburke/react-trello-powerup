@@ -18,4 +18,6 @@ const element = () => (
   </Grid>
 );
 
-setTimeout(() => ReactDOM.render(element, document.getElementById('root')), 1000);
+const render = ReactDOM.render(element, document.getElementById('root'));
+
+window.render = render;
