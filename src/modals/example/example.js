@@ -10,18 +10,16 @@ import {
 
 class Element extends React.Component {
   render() {
-    return <h1>Hello, {this.props.name}</h1>;
+    return (
+      <Grid>
+        <Row>
+          <Col xs={6} md={3}>
+            <h1>Hello, world</h1>
+          </Col>
+        </Row>
+      </Grid>
+    );
   }
-}
-
-// const element = () => (
-//   <Grid>
-//     <Row>
-//       <Col xs={6} md={3}>
-//         <h1>Hello, world</h1>
-//       </Col>
-//     </Row>
-//   </Grid>
-// );
+};
 
 ReactDOM.render(<Element name='test'/>, document.getElementById('root'));
